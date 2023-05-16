@@ -1,0 +1,12 @@
+CREATE DATABASE customer;
+USE customer;
+CREATE TABLE cus(cus_id INT PRIMARY KEY,cus_name VARCHAR(20),cus_city VARCHAR(300));
+SELECT *FROM cus;
+INSERT INTO cus VALUES('1','krishna','pathanamthitta');
+SELECT *FROM cus;
+INSERT INTO cus VALUES('100','arjun','mallapalli');
+SELECT *FROM cus;
+INSERT INTO cus VALUES('121','raji','konni');
+SELECT *FROM cus;
+INSERT INTO cus VALUES('200','arun','ranni');
+SELECT *FROM cus;
